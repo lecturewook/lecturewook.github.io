@@ -10,20 +10,21 @@
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <link href="./css/main.css" rel="stylesheet" />
+        <script type="module" src="./js/common.js"></script>
     </head>
     <body>
         <!-- Responsive navbar-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container">
-                <a class="navbar-brand" href="#!">Yeonwook Kang</a>
+                <a class="navbar-brand" href="#">Yeonwook Kang</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Home</a></li>
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="research">Research</a></li>
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="cv">CV</a></li>
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="contact">Contact</a></li>
-            
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="./sub/Research.html">Research</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="./sub/CV.html">CV</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="./sub/Contact.html">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -31,7 +32,9 @@
         <!-- Header - set the background image for the header in the line below-->
         <header class="py-5 bg-image-full" style="background-image: url('https://source.unsplash.com/wfh8dDlNFOk/1600x900')">
             <div class="text-center my-5">
-                <img class="img-fluid rounded-circle mb-4" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRC9uvVOwm4tioBFnAetFWToeHpozzmFuSql5s3bejHzQ&s" alt="..." />
+                <div class="img-fluid rounded-circle mb-4">
+                    <img  src="./img/gyw_img.jpg" alt="..." />
+                </div>
                 <h1 class="text-white fs-3 fw-bolder">Yeonwook Kang</h1>
                 <p class="text-white-50 mb-0">Ph.D. Student in Political Science, University of XXX </p>
             </div>
@@ -42,15 +45,16 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-6">
                         <h2>Yeonwook Kang</h2>
-                        <p class="lead">I'm currently updating the design, so the information may be inaccurate.
-                             If anyone needs my CV or personal contact, please feel free to contact me via e-mail, " lecturewook at gmail dot com "</p>
+                        <!-- <p class="lead">I'm currently updating the design, so the information may be inaccurate.
+                             If anyone needs my CV or personal contact, please feel free to contact me via e-mail, " lecturewook at gmail dot com "</p> -->
                         <p class="mb-0">
                             Welcome!
                             </p>
                             I am interested in exploring the evolving political landscape and systems due to changes in population demographics.
                             I hope to conduct broader research on the political implications of increasing and decreasing racial and ethnic compositions. 
                             Building on this, I have previously conducted research on the changing social perceptions of immigrants residing in my society.
-                            Please feel free to reach out if you share similar interests. Thank you.
+                            Please feel free to reach out if you share similar interests. 
+                            <br>Thank you.
                     </p>
                           [Last updated: 03/01/2024]
                         </p>
@@ -76,10 +80,10 @@
             </div>
         </section>
         <!-- Footer-->
-        <footer class="py-5 bg-dark">
+        <footer class="py-5 rel bg-dark">
             <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Yeonwook Kang's Website 2024, All right reserved. 
             </p>
-            <div class="container"><p class="text-center text-white-50 mb-0"> Templete's come from https://startbootstrap.com/template/full-width-pics </p></div>
+            <div class="absol container"><p class="text-center text-white-50 mb-0"> My homepage sample is from <a href="https://startbootstrap.com/template/full-width-pics">here</a> </p></div>
         </footer>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>

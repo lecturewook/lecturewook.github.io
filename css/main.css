@@ -1,0 +1,98 @@
+@charset "utf-8";
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(var(--bs-dark-rgb));
+}
+.pad-top{
+    /* padding-top: 20vh; */
+}
+/* CV 링크문서 연결 */
+.col-lg-6{
+    /* font-size: 2rem; */
+}
+.go-pdf{
+    color: #777;
+    transition: .3s;
+}
+.go-pdf:hover{
+    text-decoration: none;
+    color: yellow;
+}
+/* 배경색설정 (기본 : 투명)*/
+.py-5{
+    background-color: #fff;
+    /* position: relative; */
+}
+/* 상단이미지 */
+.img-fluid{
+    display: inline-block;
+    max-width: 300px;
+    overflow: hidden;
+}
+.img-fluid img{
+    width: 100%;
+    height: 100%;
+}
+/* 이미지 커지기 */
+.img-fluid img{
+    transition: .3s;
+}
+.img-fluid:hover img{
+    scale: 1.2;
+}
+/* 상단바 화면고정 */
+.navbar{
+    position: fixed;
+    width: 100%;
+}
+/* 메뉴+로고 마오스오버시 색바뀜 */
+.navbar-nav li a:hover{
+    color: #777 !important;
+}
+.navbar-brand{
+    transition: .3s;
+}
+.navbar-brand:hover{
+    color: #777 ;
+}
+/* 옆으로 흐르는 박스설정 */
+.fl-box{
+    display: flex;
+}
+/* 이미지박스 */
+.img-box{
+    max-width: 600px;
+    max-height: 600px;
+}
+.img-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.font-size1{
+    padding: 30px;
+    font-size: 2rem;
+}
+
+@media (max-width: 992px) {
+    .fl-box{
+      flex-direction: column;
+    }
+    .font-size1{
+        white-space: wrap;
+        font-size: 1.8rem;
+    }
+}
+@media (max-width: 700px) {
+    .font-size1{
+        font-size: 1.5rem;
+    }
+}
+@media (max-width: 400px) {
+    .font-size1{
+        font-size: 1rem;
+    }
+}
+/* 하단설정 */
