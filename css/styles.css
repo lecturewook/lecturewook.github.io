@@ -10832,3 +10832,9 @@ textarea.form-control-lg {
   background-position: center;
   background-size: cover;
 }
+.bg-image-full-1 {
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position-y: 70%;
+  background-size: cover;
+}
