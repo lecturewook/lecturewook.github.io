@@ -68,6 +68,10 @@ body{
 .navbar-brand:hover{
     color: #777 ;
 }
+/* 해당페이지 메뉴 색  */
+.nav-present{
+    color: #777 !important;
+}
 /* 옆으로 흐르는 박스설정 */
 .fl-box{
     display: flex;
